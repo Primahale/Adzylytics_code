@@ -99,8 +99,8 @@
 }
 .scrollong-div{
     height: 120px;
-    width: 80%;
-    margin: 20px;
+    width: 100%;
+    /* margin: 20px; */
     /* border: 1px solid; */
     
 } 
