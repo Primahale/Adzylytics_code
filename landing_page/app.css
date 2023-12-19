@@ -101,26 +101,29 @@ body{
     border: none;
     cursor: pointer;
 }
-.scrollong-div{
-    height: 120px;
+.scrolling-div {
     width: 100%;
-    /* margin: 20px; */
-    /* border: 1px solid; */
-    
-} 
-.scroll{
-    text-align: center;
-    transform: translateZ(-5px);
-    /* margin: 20px; */
+    overflow: hidden;
 }
-/* marquee{
-    marquee-speed: slow;
-} */
-.scroll img{
-    width: 100px;
-    height: 100px;
-    /* border: 1px solid; */
-    margin: 10px;
+
+.scroll {
+    display: flex;
+    animation: scrollAnimation 20s linear infinite; /* Adjust the animation duration */
+}
+
+.scroll img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the spacing between images */
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 .center2{
     height: 500px;
