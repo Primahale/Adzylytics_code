@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    /* margin: 0; */
     overflow-x: hidden;
 }
 .main{
@@ -60,12 +60,13 @@ body{
 }
 .center{
     width: 100%;
-    height: 480px;
+    height: 680px;
     /* border: 2px solid; */
+    margin: 45px;
 }
 .info-div{
-    width: 40%;
-    height: 75%;
+    width: 60%;
+    height: 80%;
     /* border: 1px solid; */
     margin: auto;
     /* display: flex; */
@@ -74,15 +75,19 @@ body{
 .info-div h1{
     position: relative;
     z-index: 2;
+    font-size: 65px;
+    text-align: center;
 }
-.info-div p{
+.center p{
     position: relative;
-    z-index: 1;
-    margin: 10px;
-    font-size: large;
+    /* z-index: 1; */
+    text-align: center;
+    /* border: 1px solid; */
+    padding: 1px;
     font-weight: bold;
-    color: #777777;
-    margin: 20px;
+    font-size: 20px;
+    color: #4b4848;
+    /* margin: 20px; */
 }
 .btn-div{
     
@@ -106,10 +111,12 @@ body{
 .scrolling-div {
     width: 100%;
     overflow: hidden;
+    padding: 10px;
     /* border: 1px solid; */
 }
 
 .scroll {
+    gap: 3%;
     display: flex;
     animation: scrollAnimation 20s linear infinite; /* Adjust the animation duration */
 }
@@ -117,6 +124,7 @@ body{
 .scroll img {
     width: 100px; /* Adjust the width as needed */
     height: auto;
+    /* border: 1px solid; */
     margin-right: 10px; /* Adjust the spacing between images */
 }
 
@@ -129,7 +137,7 @@ body{
     }
 }
 .center2{
-    height: 500px;
+    height: 820px;
     width: 80%;
     margin: auto;
     margin-top: 50px;
@@ -147,7 +155,7 @@ body{
 }
 .img img{
     height: 100%;
-    width: 100%;
+    width: 90%;
 }
 .descreption{
     height: 100%;
@@ -157,16 +165,18 @@ body{
     /* border: 1px solid; */
 }
 .descreption h1{
-    padding: 10px;
+    padding: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    font-size: 38px;
+    /* border: 1px solid; */
     
 }
 .descreption p{
     padding: 10px;
-    color: #777777;
-    font-size: large;
-    font-weight: 100;
+    color: #3f3b3b;
+    font-size: 25px;
+    /* font-weight: 300; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .descreption span{
@@ -200,8 +210,8 @@ body{
     justify-content: center;
     padding: 20px;
     margin: 10px;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     text-align: center;
   }
@@ -229,28 +239,31 @@ body{
 
 .Native_Advertising{
     /* border: 1px solid red; */
-    width: 92%;
+    width: 98%;
     height: 450px;
-    margin: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 40px;
+    /* margin: auto; */
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;
 }
 .native_box{
-   width: 100%;
-   height: 350px;
+   /* width: 100%; */
+   /* height: 350px; */
    /* border: 1px solid red; */
     display: grid;
     margin: auto;
     grid-template-columns:1fr 1fr 1fr;
-    grid-gap: 5px;
+    /* grid-gap: 5px; */
 }
 .Native_line{
     text-align: center;
 }
 .sub_native{
-    padding: 20px;
-    width: auto;
-    height: 300px;
+    padding: 7px;
+    width: 240px;
+    height: auto;
     text-align: center;
     /* border: 1px solid red; */
 }
@@ -300,9 +313,13 @@ body{
 
 .reach_audience{
     width: 85%;
-    height: 110px;
+    height: 100px;
+    margin-bottom: 50px;
     /* border: 1px solid; */
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right:50px ;
+    /* margin: auto; */
     background-color: #dd6633;
     border-radius: 20px;
     padding: 10px;
@@ -393,7 +410,7 @@ body{
     }
     .center{
         width: 100%;
-        height: 500px;
+        height: 550px;
         margin: 20px;
         /* border: 2px solid red; */
     }
@@ -546,7 +563,8 @@ body{
     .reach_audience{
         /* border: 2px solid blue; */
         display: grid;
-        width: 650px;
+        margin: auto;
+        width: 700px;
         grid-template-columns:1fr 1fr;
         grid-gap: 2px;
     }
@@ -571,9 +589,11 @@ body{
 
 
    .footer {
-    background-color: #1E1810; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #dd6633; /* Dark background color */
+    color: #000000; /* White text color */
     padding: 20px;
+    font-size: larger;
+    font-weight: bold;
     text-align: center;
     width: 100%;
     height: auto;
@@ -581,7 +601,7 @@ body{
 }
 
 .footer a {
-    color: #fff; /* Set link color to white */
+    color: #000000; /* Set link color to white */
     text-decoration: none; /* Remove underline from links */
 }
 
