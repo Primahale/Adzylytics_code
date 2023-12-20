@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var container = document.getElementById("logo-container");
-    var logos = ["HD.jpg", "cricbuzz.jpg", "espncricinfo-logo.png", "Essentiallysport.png", "javaTpoint.webp", "lokmat.jpg", "moneycontrol.jpg", "mxplayerlogo.jpg", "ndtvlogo.webp", "news18.jpg", "spotkeeda.jpg", "the-indian-express.jpg", "times-of-India.png", "truecaller.png", "zee-news.jpg"];
+    var logos = ["images/HD.jpg", "images/cricbuzz.jpg", "images/espncricinfo-logo.png", "images/Essentiallysport.png", "images/javaTpoint.webp", "images/lokmat.jpg", "images/moneycontrol.jpg", "images/mxplayerlogo.jpg", "images/ndtvlogo.webp", "images/news18.jpg", "images/spotkeeda.jpg", "images/the-indian-express.jpg", "images/times-of-India.png", "images/truecaller.png", "images/zee-news.jpg"];
 
     // Clone logos for looping effect
     logos = logos.concat(logos);
