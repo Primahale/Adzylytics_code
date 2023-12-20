@@ -410,9 +410,28 @@ body{
     }
     .center{
         width: 100%;
-        height: 550px;
+        height: 600px;
         margin: 20px;
         /* border: 2px solid red; */
+    }
+    .info-div h1{
+        position: relative;
+        z-index: 2;
+        font-size: 65px;
+        text-align: center;
+        width: 500px;
+        /* border: 1px solid; */
+    }
+    .center p{
+        position: relative;
+        /* z-index: 1; */
+        text-align: center;
+        /* border: 1px solid; */
+        padding: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #4b4848;
+        /* margin: 20px; */
     }
     
     .descreption h1{
